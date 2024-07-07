@@ -1,6 +1,5 @@
 import { test, expect } from '@playwright/test';
-let url : string = "https://cib.go.th/";
-
+const url = "https://cib.go.th/";
 
 test('TC_HOME_01_01', async ({ page }) => {
   await page.goto(url);
